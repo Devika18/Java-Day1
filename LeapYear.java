@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 public class LeapYear {
     public static void main(String[] args) {
-
-        //year to be checked
-        int year = 1800;
-        boolean leap = false;
+        System.out.println("Enter the Year: ");
+        Scanner sc = new Scanner(System.in);
+        
+        int year = sc.nextInt();
+        boolean leap;
 
         //if the year is divided by 4
         if (year % 4 == 0) {

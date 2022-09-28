@@ -6,6 +6,7 @@ class Test {
     long e;
     float f;
     short g;
+    byte h;
 
     public void printValue() {
         System.out.println("int default value = " + a);
@@ -15,6 +16,7 @@ class Test {
         System.out.println("long default value = " + e);
         System.out.println("float default value = " + f);
         System.out.println("short default value = " + g);
+        System.out.println("byte default value = " + h);
     }
 }
 
